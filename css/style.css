@@ -388,12 +388,8 @@ ul li {
     font-style: normal;
 }
 
-/* Применение к заголовкам */
-h1, h2, h3 {
+/* Применение шрифта к заголовку */
+.logo-text {
     font-family: 'Russo One', sans-serif;
-}
-
-/* Применение к конкретному слову или элементу */
-.custom-font {
-    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
 }
