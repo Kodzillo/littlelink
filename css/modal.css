@@ -1,6 +1,6 @@
 /* Затемнение фона при открытом модальном окне */
 .modal {
-    display: none; /* По умолчанию скрываем */
+    display: flex; /* Чтобы flex-центровка работала */
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -15,13 +15,14 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    pointer-events: none; /* Чтобы клики не проходили */
 }
 
 /* При добавлении класса .show окно будет плавно появляться */
 .modal.show {
-    display: flex; /* Показываем окно */
     visibility: visible;
     opacity: 1;
+    pointer-events: auto; /* Разрешаем клики */
 }
 
 /* Содержимое модального окна */
@@ -35,6 +36,13 @@
     max-width: 400px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Анимация увеличения окна при появлении */
+.modal.show .modal-content {
+    transform: scale(1);
 }
 
 /* Кнопка закрытия */
@@ -66,3 +74,4 @@
         --modal-text: #fff;
     }
 }
+
