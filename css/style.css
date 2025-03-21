@@ -452,3 +452,11 @@ ul li {
     text-align: center;
     padding: 5px;
 }
+
+.theme-light .dropdown summary {
+    color: #000000; /* Чёрный текст в светлой теме */
+}
+
+.theme-dark .dropdown summary {
+    color: #ffffff; /* Белый текст в тёмной теме */
+}
