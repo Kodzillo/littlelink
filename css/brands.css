@@ -8,7 +8,7 @@
 /* Brand Button Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Only include brand-specific button styling here */
-.button,button {
+.button, button {
   color:var(--button-text,#000000);
   background-color:var(--button-background,transparent);
 	border:var(--button-border,none);
@@ -386,7 +386,7 @@
 	--button-border:1px solid #FFFFFF;
 }
 
-/* PayPal */
+/* PayPal 
 .button-paypal {
 	--button-text:#ffffff;
 	--button-background:#002991;
@@ -490,7 +490,7 @@
 }
 
 /* Substack */
-/*.button-substack {
+.button-boosty {
 	--button-text:#ffffff;
 	--button-background:#FF6719;
 }
