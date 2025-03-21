@@ -1,29 +1,53 @@
 <!DOCTYPE html>
-<html class="theme-auto" lang="en">
+<html class="theme-auto" lang="ru">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Поддержка - Велоагент</title>
     <link rel="icon" type="image/png" sizes="48x48" href="/images/icons/VA.png?v=2">
-    <meta name="description" content="Поддержите Велоагент и помогите развитию блога о велопутешествиях!">
+    <meta name="description" content="Поддержите Велоагента и помогите развитию блога о велопутешествиях!">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brands.css">
 </head>
 
 <body>
     <div class="container">
         <div class="column">
-            <h1>Поддержка Велоагента</h1>
+            <img class="avatar avatar--rounded" src="images/Аватар для Ютуб и ТГ ver2.png" srcset="images/Аватар для Ютуб и ТГ ver2.png 2x" alt="Аватар Велоагента">
+
+            <h1 class="logo-text">Поддержка Велоагента</h1>
+
             <p>Вы можете поддержать проект любым удобным способом:</p>
-            
             <div class="button-stack" role="navigation">
-                <a class="button button-boosty" href="https://boosty.to/veloagent" target="_blank" rel="noopener" role="button">Поддержать на Boosty</a>
-                <a class="button button-patreon" href="https://www.patreon.com/VeloAgent" target="_blank" rel="noopener" role="button">Поддержать на Patreon</a>
-                <a class="button button-card" href="#">Перевод на карту</a>
-                <a class="button button-phone" href="#">Перевод по номеру телефона</a>
-                <a class="button button-crypto" href="#">Поддержка в криптовалюте</a>
-            </div>
+                <a class="button button-boosty" href="https://boosty.to/veloagent" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/boosty-logo.svg" alt="Boosty Logo"> Поддержать на Boosty</a>
+                <a class="button button-patreon" href="https://www.patreon.com/VeloAgent" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/patreon.svg" alt="Patreon Logo">Поддержать на Patreon</a>
+
+                <details class="dropdown">
+                    <summary class="button">Перевод на карту</summary>
+                    <div class="dropdown-content">
+                        <label>Карта 1: <input type="text" value="1234 5678 9012 3456" readonly></label>
+                        <label>Карта 2: <input type="text" value="9876 5432 1098 7654" readonly></label>
+                    </div>
+                </details>
+
+                <details class="dropdown">
+                    <summary class="button">Перевод по номеру телефона</summary>
+                    <div class="dropdown-content">
+                        <label>KASPI (КЗ): <input type="text" value="+7 707 960 23 10 53" readonly></label>
+                        <label>Сбербанк (РФ): <input type="text" value="+7 924 309 41 41" readonly></label>
+                    </div>
+                </details>
+
+                <details class="dropdown">
+                    <summary class="button">Поддержка в криптовалюте</summary>
+                    <div class="dropdown-content">
+                        <label>Bitcoin: <input type="text" value="3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy" readonly></label>
+                        <label>Ethereum: <input type="text" value="0xAbC1234567890DefABC1234567890DEFAbC1234" readonly></label>
+                    </div>
+                </details>
+            </div>            
             
             <a class="button button-back" href="index.html">Назад</a>
         </div>
