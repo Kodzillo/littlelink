@@ -435,6 +435,7 @@ ul li {
 }
 
 .dropdown-content p {
+    color: #000; /* Черный цвет */
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
