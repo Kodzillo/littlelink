@@ -434,6 +434,11 @@ ul li {
     text-align: center;
 }
 
+.dropdown-content p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
 /* Убираем стандартный треугольник у <summary> */
 .dropdown summary::-webkit-details-marker {
     display: none;
