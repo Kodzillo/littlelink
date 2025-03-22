@@ -610,3 +610,35 @@
 	--button-text:#ffffff;
 	--button-background:#ffd700;
 }
+
+.button.button-back {
+    color: var(--button-text);
+    background-color: var(--button-background);
+    border: var(--button-border);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.button.button-back {
+    color: var(--button-text);
+    background-color: var(--button-background);
+    border: var(--button-border);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.button.button-back:hover {
+    opacity: 0.8;
+}
