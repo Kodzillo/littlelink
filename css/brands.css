@@ -491,8 +491,8 @@
 
 /* Substack */
 .button-boosty {
-	--button-text:#ffffff;
-	--button-background:#FFB28D;
+	--button-text:#000000;
+	--button-background:#ffffff;
 }
 
 /* Telegram */
